@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+@@include('components/page-blocks/_head.html',{
+"lang":"en",
+"title":"Countdown timer",
+"description":"",
+"keywords":"",
+"favicon":"img/favicons/favicon",
+})
+
+<body>
+      <div class="timer">
+         <h3 class="timer__title">COUNT TO MY BIRTHDAY:</h3>
+         <div class="timer__contaiter">
+            <div class="timer__numb-cont">
+               <div class="timer__days-count timer__numb">0</div>
+               <div class="timer__days-text timer__text">DAYS</div>
+            </div>
+            <div class="timer__numb-cont">
+               <div class="timer__hours-count timer__numb">0</div>
+               <div class="timer__hours-text timer__text">HOURS</div>
+            </div>
+            <div class="timer__numb-cont">
+               <div class="timer__minutes-count timer__numb">0</div>
+               <div class="timer__minutes-text timer__text">MINUTES</div>
+            </div>
+            <div class="timer__numb-cont">
+               <div class="timer__seconds-count timer__numb">0</div>
+               <div class="timer__seconds-text timer__text">SECONDS</div>
+            </div>
+         </div>
+      </div>
+   @@include('components/page-blocks/_scripts.html')
+</body>
+
+</html>

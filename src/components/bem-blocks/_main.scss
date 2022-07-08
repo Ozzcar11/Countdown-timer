@@ -1,0 +1,65 @@
+:root {
+   font-family: Poppins-Regular;
+}
+
+body {
+   background-color: #ffd045;
+   color: rgba(0, 0, 0, 0.75);
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.timer {
+   width: 60%;
+   &__title {
+      font-size: 2.25rem;
+      letter-spacing: 7px;
+      margin-bottom: 30px;
+   }
+
+   &__contaiter {
+      display: flex;
+   }
+
+   &__numb-cont {
+      & + & {
+         margin-left: 50px;
+      }
+   }
+
+   &__days-count {
+   }
+
+   &__days-text {
+   }
+   
+   &__numb {
+      font-size: 5.25rem;
+      text-align: center;
+   }
+
+   &__text {
+      font-size: 1.75rem;
+      text-align: center;
+   }
+
+   &__hours-count {
+   }
+
+   &__hours-text {
+   }
+
+   &__minutes-count {
+   }
+
+   &__minutes-text {
+   }
+
+   &__seconds-count {
+   }
+
+   &__seconds-text {
+   }
+}
